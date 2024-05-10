@@ -41,9 +41,9 @@ INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`
 INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("RJ Alabado", "Software Development Engineer", "USA", "Architecture & Development");
 INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Denzel Daniels", "Site Reliability Engineer", "USA", "Architecture & Development");
 INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Naga Krishna", "Software Development Engineer", "India", "Architecture & Development");
-INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Hector Mendoza	Software Architect", "USA", "Architecture & Development");
-INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Richard Shoemake	Software Architect", "USA", "Architecture & Development");
-INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Tod Matola	Software Architect", "USA", "Architecture & Development");
+INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Hector Mendoza", "Software Architect", "USA", "Architecture & Development");
+INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Richard Shoemake", "Software Architect", "USA", "Architecture & Development");
+INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Tod Matola", "Software Architect", "USA", "Architecture & Development");
 INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("John Boal", "Software Development Engineer", "USA", "Architecture & Development");
 INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Jordan Davidson-Campbell", "Software Development Engineer", "USA", "Architecture & Development");
 INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Michael Carpenter", "Software Development Engineer", "USA", "Architecture & Development");
@@ -52,8 +52,8 @@ INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`
 INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Shashidhar Annapareddy", "Software Development Engineer", "India", "Architecture & Development");
 INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Stuart Wilson", "Software Development Engineer", "USA", "Architecture & Development");
 INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Taylor Young", "Software Development Engineer", "USA", "Architecture & Development");
-INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Evin Owen	Software Architect", "USA", "Architecture & Development");
-INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Ivan Jones	Software Architect", "USA", "Architecture & Development");
+INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Evin Owen", "Software Architect", "USA", "Architecture & Development");
+INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Ivan Jones", "Software Architect", "USA", "Architecture & Development");
 INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Greg Lamb", "Software Development Engineer", "USA", "Architecture & Development");
 INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Anthony Spencer", "Software Development Engineer", "USA", "Architecture & Development");
 INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Brian Black", "Software Development Engineer", "USA", "Architecture & Development");
@@ -118,7 +118,7 @@ INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`
 INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Ulrich Eggers", "Software Development Engineer", "Argentina", "Architecture & Development");
 INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Victor Blumenbaum", "Software Development Engineer", "Argentina", "Architecture & Development");
 INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("William Terrill", "Software Development Engineer", "USA", "Architecture & Development");
-INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Adolfo Garcia	Software Architect", "Mexico", "Architecture & Development");
+INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Adolfo Garcia", "Software Architect", "Mexico", "Architecture & Development");
 INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Gustavo Veron", "DevOps Engineer", "Argentina", "DevSecOps");
 INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Manuel Rico", "DevOps Engineer", "Mexico", "DevSecOps");
 INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Nicolas Fernandez", "DevOps Engineer", "Argentina", "DevSecOps");
@@ -156,14 +156,10 @@ INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`
 INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Pradeep Kumar Reddy Edara", "Software Development Engineer in Test", "India", "Test & Test Automation");
 INSERT INTO `pytest_workshop`.`consultant` (`consultant_name`,`consultant_title`,`consultant_location`,`consultant_discipline`) VALUES ("Shiva Mothkuri", "Software Development Engineer in Test", "India", "Test & Test Automation");
 
--- SELECT * FROM `pytest_workshop`.`studio`;
--- SELECT * FROM `pytest_workshop`.`discipline`;
--- SELECT * FROM `pytest_workshop`.`consultant`; 
--- SELECT * FROM `pytest_workshop`.`studio_discipline`;
--- SELECT * FROM `pytest_workshop`.`discipline_consultant`;
+SELECT * FROM `pytest_workshop`.`studio`;
+SELECT * FROM `pytest_workshop`.`discipline`;
+SELECT * FROM `pytest_workshop`.`consultant`; 
 
 -- DELETE FROM `pytest_workshop`.`studio`;
 -- DELETE FROM `pytest_workshop`.`discipline`;
 -- DELETE FROM `pytest_workshop`.`consultant`; 
--- DELETE FROM `pytest_workshop`.`studio_discipline`;
--- DELETE FROM `pytest_workshop`.`discipline_consultant`;
