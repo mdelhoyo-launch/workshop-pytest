@@ -1,0 +1,43 @@
+Using IDs (Right) vs. Classes with Indexes (Wrong):
+
+Right:
+login_button = driver.find_element(By.ID, 'loginButton')
+
+Wrong:
+login_button = driver.find_element(By.XPATH, '(//button[@class="btn"])[3]')
+
+
+Combining CSS Selectors (Right) vs. Overly Specific XPath (Wrong):
+
+Right:
+username_input = driver.find_element(By.CSS_SELECTOR, 'form.login-form input[name="username"]')
+
+Wrong:
+username_input = driver.find_element(By.XPATH, '//form[@class="login-form"]/div/input[1]')
+
+
+Using Descriptive Attributes (Right) vs. Positional XPath (Wrong):
+
+Right:
+search_box = driver.find_element(By.NAME, 'search')
+
+Wrong:
+search_box = driver.find_element(By.XPATH, '//input[2]')
+
+
+Using XPath Functions (Right) vs. Exact Text Match (Wrong):
+
+Right:
+login_link = driver.find_element(By.XPATH, '//a[contains(text(), "Login")]')
+
+Wrong:
+login_link = driver.find_element(By.XPATH, '//a[text()="Login Now"]')
+
+
+Using Stable CSS Selectors (Right) vs. Multiple Attributes in XPath (Wrong):
+
+Right:
+profile_link = driver.find_element(By.CSS_SELECTOR, 'a[href="/profile"]')
+
+Wrong:
+profile_link = driver.find_element(By.XPATH, '//a[@href="/profile" and @class="nav-link" and text()="Profile"

@@ -1,0 +1,6 @@
+Create a Python script using Selenium and Pytest to automate a Google search. The script should:
+
+Open the Google homepage.
+Type a search query (e.g., "Python programming") into the search bar.
+Submit the search.
+Assert that the search results page shows results for the entered query.
