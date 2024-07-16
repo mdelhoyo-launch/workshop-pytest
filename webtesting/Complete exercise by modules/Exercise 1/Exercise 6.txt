@@ -1,0 +1,18 @@
+Exercise 6: Running the Test and Generating HTML Report
+
+Objective
+Run the test case and generate an HTML report.
+
+Steps
+Ensure all dependencies are installed:
+pip install -r requirements.txt
+
+Run the test with the --html option to generate the HTML report:
+pytest --html=report.html
+
+Verification
+Check the report.html file in the root directory of your project to ensure that the HTML report is generated and contains the test results.
+
+By following these segmented exercises, you will build up the complete example step by step, ensuring that each part is correctly implemented and tested.
+
+SUCCESS!

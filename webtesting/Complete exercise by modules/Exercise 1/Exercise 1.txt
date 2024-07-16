@@ -1,0 +1,24 @@
+Exercise breakdown
+
+Youtube search.
+We are going to automate a youtube search while appyling all the explained subjects.
+
+1. First start creating the directory:
+
+youtube_search
+│
+├── pages/
+│   ├── __init__.py
+│   ├── youtube_home_page.py
+│   └── youtube_search_results_page.py
+├── tests/
+│   ├── __init__.py
+│   ├── conftest.py
+│   └── test_youtube_search.py
+├── requirements.txt
+└── drivers/
+    └── chromedriver
+
+2. Create the "requirements.txt" file, which will contain all our needed modules.
+
+3. Create empty __init__.py files in the pages and tests directories (to make the directories accessible for pytest).

@@ -1,0 +1,10 @@
+Implementing the YouTube Home Page Object
+
+Objective
+Implement the page object for the YouTube home page.
+
+Steps
+Create pages/youtube_home_page.py which will contain an initialization for the driver and the methods to look for data inside the website.
+
+Verification
+Ensure that pages/youtube_home_page.py is created and contains needed code to perform the search.

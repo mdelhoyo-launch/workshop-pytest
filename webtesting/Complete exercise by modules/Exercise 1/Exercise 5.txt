@@ -1,0 +1,12 @@
+Exercise 5: Writing the Test Case
+
+Objective
+Create the test case that uses the page objects and fixtures.
+
+Steps
+Create tests/test_youtube_search.py with the following content:
+· Main method that sets up driver and text to search.
+· Open the desired website.
+· Type the text into the search bar and submit query.
+· Wait until page is loaded.
+· Assert information in website's title and page results.

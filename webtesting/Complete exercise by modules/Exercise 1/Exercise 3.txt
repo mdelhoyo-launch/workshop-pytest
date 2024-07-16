@@ -1,0 +1,11 @@
+Exercise 3: Implementing the YouTube Search Results Page Object
+
+Objective
+Implement the page object for the YouTube search results page.
+
+Steps
+Create pages/youtube_search_results_page.py which should contain:
+ · Initialization
+ · Await to let the content load
+ · Method to read the website's title
+ · XPath search of our desired text

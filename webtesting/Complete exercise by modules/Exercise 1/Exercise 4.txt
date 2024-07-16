@@ -1,0 +1,7 @@
+Exercise 4: Setting Up Fixtures in conftest.py
+
+Objective
+Create the conftest.py file to include common fixtures.
+
+Steps
+Create tests/conftest.py with the needed fixtures for Webdriver and pytest-html for reporting.

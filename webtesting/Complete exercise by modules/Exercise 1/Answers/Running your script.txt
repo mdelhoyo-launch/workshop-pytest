@@ -1,0 +1,8 @@
+You should assure your requirements are met, for that, you can use 
+
+pip install -r requirements.txt
+
+
+And to run your scripts, including a report, you can use
+
+pytest --html=report.html
