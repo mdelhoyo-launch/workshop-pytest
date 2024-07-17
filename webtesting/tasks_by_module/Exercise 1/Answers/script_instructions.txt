@@ -1,0 +1,12 @@
+## Set up ##
+
+We advise you to create a virtual environment and set it as the scope for the dependencies of this project. see https://docs.python.org/3/library/venv.html
+
+Once your virtual environment is activated, run the following command to install all the required project dependencies:
+pip install -r requirements.txt
+
+To run all the tests within the current directory you are standing, run:
+pytest
+
+If you want a report to be generated, just run:
+pytest --html=report.html
