@@ -14,3 +14,6 @@ class SauceLabsLoginPage():
     def click_login_button(self):
         element = self.wait.until(EC.presence_of_element_located(SauceLabsLoginPageLocators.LOGIN_BUTTON))
         element.click()
+
+    def text_is_on_page(self, message: str):
+        return message in self.wait.until(EC.presence_of_element_located(SauceLabsLoginPageLocators.BODY)).text

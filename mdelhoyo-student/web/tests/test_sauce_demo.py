@@ -16,3 +16,5 @@ def sauce_demo():
     sauce_demo_page.enter_password('secret_sauce')
 
     sauce_demo_page.click_login_button()
+
+    assert sauce_demo_page.text_is_on_page('Sorry, this user has been locked out.') is True
